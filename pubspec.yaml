@@ -12,14 +12,18 @@ dependencies:
 
   cupertino_icons: ^1.0.2
   flutter_bloc: ^8.0.1
-  equatable: ^2.0.3
-  dio: ^4.0.4
+  http: ^0.13.5
+  parent_child_checkbox: ^0.0.3
+  flutter_svg: ^0.22.0
+  localstore: ^1.2.3
+  intl: ^0.17.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
   flutter_lints: ^2.0.0
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -29,3 +33,5 @@ flutter:
 
   uses-material-design: true
 
+  assets:
+    - assets/images/

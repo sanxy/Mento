@@ -4,7 +4,7 @@ import 'package:mento/services/users_service.dart';
 
 class UserBLoC {
   Stream<List<User>> get usersList async* {
-    yield* await UserService.browse();
+    yield await UserService.browse();
   }
 
   final StreamController<int> _userCounter = StreamController<int>();

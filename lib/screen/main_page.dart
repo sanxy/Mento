@@ -47,7 +47,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: Text(
                   'Mock Test App',
                   style: TextStyle(
-                      fontSize: 20.0,
+                      fontSize: 25.0,
                       fontWeight: FontWeight.w800,
                       color: Colors.black),
                 ),
